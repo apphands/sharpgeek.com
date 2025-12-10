@@ -1,71 +1,22 @@
  .u-section-1 {
+  filter: none;
   background-image: url("images/nn.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 741px;
-}
-
-.u-section-1 .u-list-1 {
-  margin-top: 125px;
-  margin-bottom: 60px;
-  grid-template-rows: repeat(1, auto);
-}
-
-.u-section-1 .u-repeater-1 {
-  grid-template-columns: repeat(2, calc(50% - 5px));
-  min-height: 437px;
-  --gap: 10px;
-  grid-auto-columns: calc(50% - 5px);
-}
-
-.u-section-1 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/Screenshot2025-12-09at8.05.19PM.png');
-  background-position: 50% 50%;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding: 30px 0 0;
-}
-
-.u-section-1 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('images/Screenshot2025-11-27at12.27.16AM.png');
-  background-position: 50% 50%;
-}
-
-.u-section-1 .u-container-layout-2 {
-  padding: 30px 0 0;
+  min-height: 457px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 611px;
-  }
-
-  .u-section-1 .u-list-1 {
-    margin-top: 413px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
-    grid-gap: 10px;
-    min-height: 360px;
+    min-height: 377px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 468px;
-  }
-
-  .u-section-1 .u-list-1 {
-    margin-top: 163px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5.0000025px));
-    grid-auto-columns: calc(100% - 0px);
+    min-height: 289px;
   }
 }
 
@@ -73,33 +24,10 @@
   .u-section-1 .u-sheet-1 {
     min-height: 3034px;
   }
-
-  .u-section-1 .u-list-1 {
-    margin-top: 1637px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: 100%;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 564px;
-  }
-
-  .u-section-1 .u-list-1 {
-    margin-top: 50px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-template-columns: repeat(1, 100%);
-    --gap: 20px;
-    grid-auto-columns: 100%;
-  }
-
-  .u-section-1 .u-image-2 {
-    background-position: 50% 50%, 50% 46.8%;
-    background-size: cover, cover;
   }
 }
